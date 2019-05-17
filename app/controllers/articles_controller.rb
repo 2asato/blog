@@ -29,7 +29,11 @@ class ArticlesController < ApplicationController
          flash[:notice] = "Article was not updated"
          render 'edit'
         end
-       end
+    end
+
+    def index
+        @articles = Article.all
+    end
     
     private
     def article_params
