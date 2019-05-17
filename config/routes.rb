@@ -4,4 +4,7 @@ Rails.application.routes.draw do
 
   # about page route
   get 'about', to: 'pages#about'
+
+  # gives paths for crud
+  resources :articles
 end
