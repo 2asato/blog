@@ -58,3 +58,6 @@ gem 'bootstrap-sass', '~> 3.3.7'
 
 # jquery 
 gem 'jquery-rails'
+
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
